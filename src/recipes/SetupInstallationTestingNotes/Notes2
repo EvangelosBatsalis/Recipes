@@ -1,0 +1,14 @@
+/*
+GET http://localhost:8081/api/recipe/1
+POST http://localhost:8881/api/recipe/new
+
+{
+"name": "Warming Ginger Tea",
+"description": "Ginger tea is a warming drink for cool weather, ...",
+"ingredients": ["1 inch ginger root, minced", "1/2 lemon, juiced", "1/2 teaspoon manuka honey"],
+"directions": ["Place all ingredients in a mug and fill with warm water (not too hot so you keep the beneficial honey compounds in tact)", "Steep for 5-10 minutes", "Drink and enjoy"]
+}
+
+post->body->raw->json
+
+* */
